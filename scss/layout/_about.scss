@@ -1,0 +1,37 @@
+.about {
+    padding-top: 93px;
+}
+
+.about__list {
+    display: flex;
+    gap: 30px;
+}
+
+.about__icon {
+    display: flex;
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about__description {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+    width: 270px;
+}
